@@ -1,0 +1,19 @@
+.info-container{
+    position: relative;
+    width: 100%;
+}
+.ic-bg{
+    background: rgb(127,71,190);
+    background: linear-gradient(180deg, rgba(127,71,190,1) 81%, rgba(180,147,217,1) 92%, rgba(255,255,255,1) 100%);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: -100px;
+    z-index: -1;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+.ic-main{
+    padding: 20px;
+    height: 1000px;
+}

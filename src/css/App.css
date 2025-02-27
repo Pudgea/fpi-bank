@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s;
+}
+
+p{
+  font-size: 14px !important;
+}
+
+
+.btn{
+  padding: 10px;
+  border: 2px solid #7F47BE;
+  border-radius: 10px;
+  color: #7F47BE;
+}
+.primary{
+  color: #7F47BE;
+}
+.btn:hover{
+  background-color: #7f47be;
+  color: #fff;
+}
