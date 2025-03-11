@@ -1,0 +1,72 @@
+.tarifs-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+}
+.tc-main{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tariff{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    gap: 50px;
+    background-color: #9FE632;
+    flex: 1;
+    height: 700px;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tariff-name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.tn-line{
+    border-top: 2px dotted #0000007a;
+    flex: 1;
+}
+.tn-price{
+    color: #7F47BE;
+}
+
+.tariff-values{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+    
+}
+.tv-value{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tv-line{
+    border-top: 2px dotted #0000007a;
+    flex: 1;
+}
+.tv-includes{
+    color: #7F47BE;
+    font-size: 20px !important;
+    font-weight: 900;
+}
+
+.tariff button{
+    height: 50px;
+}
+
+.tc-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

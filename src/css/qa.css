@@ -1,0 +1,13 @@
+.qa-container{
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.qc-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

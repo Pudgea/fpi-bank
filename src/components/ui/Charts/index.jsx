@@ -1,5 +1,6 @@
 import React from "react";
 import Charts from "./Charts";
+import ChartsText from "./ChartsText";
 
 const ChartContainer = () => {
   return (
@@ -15,6 +16,7 @@ const ChartContainer = () => {
       </div>
       <div className="cc-main">
         <Charts />
+        <ChartsText />
       </div>
     </div>
   );

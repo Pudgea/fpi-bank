@@ -1,0 +1,28 @@
+.closingBlock {
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 10px;
+}
+
+.cb-head{
+    padding: 20px;
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.state{
+    font-size: 20px !important;
+}
+
+.cd-main{
+    height: 0;
+    overflow: hidden;
+    display: none;
+    padding-inline: 30px;
+    padding-block: 15px;
+    padding-bottom: 30px;
+}
+.opened .cd-main{
+    height: 100% !important;
+    display: block;
+}

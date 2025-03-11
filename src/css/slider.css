@@ -1,0 +1,151 @@
+.slider-container{
+    background-color: #9FE632;
+    padding: 30px;
+    padding-top: 0;
+    position: relative;
+}
+.sc-main{
+    z-index: 1;
+    position: relative;
+}
+.sc-slider{
+    margin-top: 80px;
+    position: relative;
+}
+.sc-trans-p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 80px;
+    background-color: #7F47BE;
+    border-bottom-left-radius: 80px;
+    z-index: 0;
+}
+.sc-trans-g{
+    position: absolute;
+    left: 0;
+    top: -80px;
+    width: 60%;
+    height: 80px;
+    background-color: #9FE632;
+    border-top-right-radius: 80px;
+    z-index: 0;
+}
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+  }
+  
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 400px !important;
+padding: 20px;
+height: 500px !important;
+background-color: #fff;
+border-radius: 10px;
+display: flex !important;
+flex-direction: column;
+gap: 10px;
+}
+.swiper-slide p{
+    padding-inline: 5px;
+    line-height: 25px;
+}
+
+
+.swiper-slide img {
+display: block;
+width: 100%;
+}
+.swiper-pagination-bullet-active{
+    background-color: #7F47BE !important;
+}
+
+.road-container{
+    background-color: #9FE632;
+    padding: 30px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius:80px ;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.rc-head{
+    margin-top: 50px;
+}
+.rc-main{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    min-height: 200px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.rc-main h3{
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     position: relative;
+     z-index: 2;
+}
+.rc-main h3 p{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7F47BE;
+    color: #fff;
+    border-radius: 10px;
+    top: -15px;
+    left: -15px;
+}
+h3#three{
+    align-self: flex-end;
+}
+h3#two{
+    align-self: center;
+}
+h3#one{
+    align-self: baseline;
+}
+.bg-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: #7F47BE dashed 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@media (max-width: 990px){
+    .rc-main h3{
+        flex: 1;
+    }
+    .rc-main{
+        flex-direction: column;
+        gap: 25px;
+    }
+}

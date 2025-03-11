@@ -25,9 +25,29 @@
     text-align: center;
 }
 .cc-main{
+    margin-top: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap:100px;
+}
+.cc-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 20px 20px white;
+    background-color: #9FE632;
+}
+.cct-block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 .cc-chart{
     width: 600px;
