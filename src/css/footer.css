@@ -1,0 +1,24 @@
+.footer-container{
+    width: 100%;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color:#302C29 ;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+.fc-line{
+    height: 1px;
+    width: 90%;
+    background-color: #9FE632;
+    border-radius: 30px;
+}
+
+.fc-bottom{
+    font-size: 14px;
+    color: #7F47BE;
+}

@@ -7,6 +7,7 @@ import "./css/info.css";
 import "./css/holders.css";
 import "./css/tarifs.css";
 import "./css/qa.css";
+import "./css/footer.css";
 
 import {
   Chart,
@@ -344,6 +345,11 @@ function App() {
             <ClosingBlock {...q} />
           ))}
         </div>
+      </div>
+      <div className="footer-container">
+        <div className="fc-top">Ваш люти ФПЕ банке ДОнн</div>
+        <div className="fc-line"></div>
+        <div className="fc-bottom">C кружок FPI Артйом банке</div>
       </div>
     </div>
   );
